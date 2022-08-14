@@ -1,4 +1,7 @@
 import React from 'react'
+import {
+  Outlet,
+} from 'react-router-dom'
 
 import classNames from 'classnames'
 
@@ -19,6 +22,7 @@ const MainLayout = (props: MainLayoutProps) => {
     >
       <Logo />
       <p>Hello, 지하철</p>
+      <Outlet />
     </Layout>
   );
 }

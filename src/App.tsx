@@ -1,4 +1,8 @@
 import React from 'react'
+import {
+  Routes,
+  Route,
+} from 'react-router-dom'
 
 import './App.scss'
 
@@ -9,7 +13,10 @@ function App() {
     <div
       className="app"
     >
-      <MainLayout />
+      <Routes>
+        <Route path="/" element={<MainLayout />} />
+        <Route path="/lines" element={<MainLayout />} />
+      </Routes>
     </div>
   );
 }
