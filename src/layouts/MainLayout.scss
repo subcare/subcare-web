@@ -1,0 +1,10 @@
+.main-layout {
+  .main-layout__header {
+    display: flex;
+
+    @media (max-width: 600px) {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

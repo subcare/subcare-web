@@ -7,6 +7,8 @@ import {
 
 import classNames from 'classnames'
 
+import './MainLayout.scss'
+
 import Layout from 'components/Layout'
 import Logo from 'components/Logo'
 
@@ -31,7 +33,11 @@ const MainLayout = (props: MainLayoutProps) => {
         props.className,
       )}
     >
-      <Logo />
+      <header
+        className="main-layout__header"
+      >
+        <Logo />
+      </header>
       <p>Hello, 지하철</p>
       <Outlet />
     </Layout>
