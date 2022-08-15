@@ -1,0 +1,113 @@
+body  {
+    background-color : black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 192px;
+    height: 108px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+@media (max-width: 600px){
+    #header {
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        width: 80%;
+        height: 30%;
+        margin-top: -30px;
+        margin-left: 0px;
+    }
+}
+.hosun {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+@media (max-width: 600px){
+    .hosun {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        margin-top: 75px;
+        font-family: 'Nanum Pen Script', cursive;
+    }
+    
+}
+.user_hosun {
+    margin-top: 70px;
+    text-align: center;
+}
+.hosun_name {
+    font-size: 20px;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+.hosun_btn  {
+    font-size: 20px;
+    color: white;
+    width: 70px;
+    height: 54px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+
+input:focus {outline:none;}
+
+.when {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+@media (max-width: 600px){
+    .when {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        margin-top: 75px;
+        font-family: 'Nanum Pen Script', cursive;
+    }
+    
+}
+.user_when {
+    margin-top: 70px;
+    text-align: center;
+}
+.when_name {
+    font-size: 20px;
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
+.when_btn  {
+    font-size: 20px;
+    color: white;
+    width: 70px;
+    height: 54px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+}
