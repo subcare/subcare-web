@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
   Outlet,
+  useLocation,
+  useNavigate,
 } from 'react-router-dom'
 
 import classNames from 'classnames'
@@ -13,6 +15,15 @@ interface MainLayoutProps {
 }
 
 const MainLayout = (props: MainLayoutProps) => {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (location.pathname === '/') {
+      navigate('/lines');
+    }
+  }, [location, navigate]);
+
   return (
     <Layout
       className={classNames(
